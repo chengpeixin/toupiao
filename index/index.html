@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='./../js/flexible.js'></script>
+    <script src='./../js/zepto.js'></script>
+    <script src='./../js/touch.js'></script>
+    <script src='./../js/index.js'></script>
+    <script src="./../js/ajax.js"></script>
+    <link rel="stylesheet" href="./../css/index.css">
+    <title>投票</title>
+</head>
+<body>
+
+    <header><img src="./../img/banner.jpg" alt=""></header>
+    <div class="body">
+        <div class="display">
+            <div class="piaoshu">
+                剩余票数 : <span id='piaoshu'></span>
+            </div>
+            <div class="gang">|</div>
+            <div class="item">
+                倒计时 : <span id='time'></span>
+            </div>
+        </div>
+        <!--验证邀请码-->
+        <div class="yaoqingMa">
+            <input type="text" class="yaoqing" id="yaoqing" placeholder="请输入邀请码">
+            <input class='queding'  id='queding' type="button" value='确定'>
+        </div>
+        <!--活动介绍-->
+        <div class="introduce">
+            <div class="vote">
+                <p class='title'>投票规则介绍</p>
+                <p class='font'>开始时间 : 2017年11月11日 00:00：17</p>
+                <p class='font'>截止时间 : 2017年12月-12日 12:12：12</p>
+                <p class='font'>投票规则 : 每个微信每天能投10票,每天可为同一企业投5票</p>
+            </div>
+            <div class="introduceVote">
+                <p class='title'>活动介绍</p>
+                <p class='font indent'>近年来，临床工程在医疗行业中的重要作用已得到普遍认可，临床工程从业人员对社会的贡献越来越突出。2017年国家卫计委发布《＂十三五＂全国卫生计生人才发展规划》重要文件，正式把临床工程人员纳入全国卫生人才发展规划，表明了社会对优秀临床工程人才的高度重视和迫切需求。</p>
+                <p class='font indent'>《中国医疗设备》杂志社一直以推动中国临床工程发展为己任，积极贯彻卫计委关于临床工程人才建设总体部署，自2010年起连续举办了七届“中国好医工”评选活动，为社会选拔出600多位优秀临床工程师，为提升国内医疗设备管理水平，强化医疗质控安全，提高医疗科研能力，加速学科建设做出了突出贡献。为继续选拔临床工程优秀人才，推动行业发展，《中国医疗设备》杂志社联合《健康报》社、人民卫生出版社、中华医学会医学工程学分会、中国医师协会临床工程师分会、中国生物医学工程学会临床医学工程分会、中国研究型医院学会临床工程专业委员会、中国非公立医疗机构协会临床工程分会、《中国医药》杂志、北京智慧医疗技术创新联盟共同举办的第八届“中国好医工”中国优秀临床工程师评选活动于2017年3月25日正式启动。</p>
+            </div>
+        </div>
+        <!--二维码-->
+        <div class="two">
+                <div class="twoCode">
+                    <img src="./../img/twoCode.jpg" width='50%' height="50%" alt="">
+                </div>
+                <p class='font center'>长安识别二维码查看投票详情</p>
+        </div>
+        <!--搜索-->
+        <div class="serch">
+                <input class="Search_text" id='Search_text'type="text" placeholder="请输入姓名或编号">
+                <input class='btnSearch'  id='Search' type="button" value='搜索'>
+        </div>
+        <div class="peopleList">
+
+        </div>
+    </div>
+    <!--加载-->
+    <div class="load">
+      <embed src="./../svg/load.svg" type="image/svg+xml"/>
+    </div>
+    <!--好医工APP-->
+    <footer>
+        <a href="http://download.haoyigong.com">
+            <img src="./../img/footer.jpg" width='100%' alt="">
+        </a>
+    </footer>
+</body>
+</html>

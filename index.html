@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/zepto.js"></script>
+</head>
+<body>
+<h1>加载中......</h1>
+</body>
+<script>
+    window.onload=function () {
+        //授权
+        var url='https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx82771b73d6748bc4&redirect_uri=http%3a%2f%2fapply.haoyigong.com%2fvote2017%2findex%2findex.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
+        //静默
+        //var url='https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx82771b73d6748bc4&redirect_uri=http%3a%2f%2fapply.haoyigong.com%2fvote2017%2findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect '
+        window.location.href=url;
+    }
+</script>
+</html>

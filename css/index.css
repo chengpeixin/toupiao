@@ -1,0 +1,476 @@
+/* line 1, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 5, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\000035}}
+input {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  border: 0px;
+}
+/* line 12, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000312}}
+header {
+  margin-bottom: 0.2666rem;
+}
+/* line 14, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000314}}
+header img {
+  width: 100%;
+}
+/* line 18, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000318}}
+.body {
+  padding: 0 4%;
+}
+/* line 20, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000320}}
+.body .display {
+  width: 100%;
+  height: 58px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #bf2949;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*水平居中*/
+}
+/* line 30, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000330}}
+.body .display div {
+  float: left;
+  color: #FFF;
+  font-size: 0.4rem;
+}
+/* line 35, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000335}}
+.body .display .gang {
+  font-size: 18px;
+  margin: 0 30px;
+}
+/* line 44, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000344}}
+.body .two {
+  margin-bottom: 22px;
+}
+/* line 46, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000346}}
+.body .two .twoCode {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 53, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000353}}
+.body .serch {
+  height: 30px;
+  width: 76%;
+  margin-bottom: 38px;
+  padding-left: 10%;
+}
+/* line 58, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000358}}
+.body .serch .Search_text {
+  border: 1px solid #a3a3a3;
+  border-radius: 8px;
+  width: 60%;
+  height: 28px;
+  padding-left: 10%;
+}
+/* line 65, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000365}}
+.body .serch .btnSearch {
+  background: #bf2949;
+  color: #FFF;
+  height: 30px;
+  width: 25%;
+  border-radius: 8px;
+  font-size: 14px;
+}
+/* line 75, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000375}}
+.body .peopleList {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+/* line 80, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000380}}
+.body .peopleList .people {
+  width: 40%;
+  height: 6.74666rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+/* line 87, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000387}}
+.body .peopleList .people .portrait {
+  width: 3.8666rem;
+  height: 3.8666rem;
+  background: #b8b8b8;
+  border-radius: 10px;
+  margin-bottom: 0.2666rem;
+}
+/* line 93, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\0000393}}
+.body .peopleList .people .portrait img {
+  margin-bottom: 0.14rem;
+  border-radius: 0.1333rem;
+}
+/* line 106, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003106}}
+.load {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 113, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003113}}
+.title {
+  font-size: 15px;
+  color: #bb0437;
+  font-weight: 600;
+  margin: 16px 0 20px 0;
+}
+/* line 120, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003120}}
+.font {
+  color: #414141;
+  font-size: 10px;
+}
+/* line 124, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003124}}
+.indent {
+  text-indent: 2em;
+}
+/* line 127, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003127}}
+.center {
+  text-align: center;
+}
+/* line 130, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003130}}
+.name {
+  font-size: 0.37333rem;
+  color: #3f3f3f;
+}
+/* line 134, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003134}}
+.name_content {
+  font-size: 0.30666rem;
+  color: #bcbbbb;
+  margin-bottom: 0.14rem;
+  height: 0.9rem;
+}
+/* line 140, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003140}}
+.btn_toupiao {
+  height: 0.68666rem;
+  width: 100%;
+  background: #bf2949;
+  color: #fff;
+  font-size: 0.29333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 0.04666rem;
+  border-radius: 0.08rem;
+}
+/* line 152, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003152}}
+.zongpiaoshu {
+  font-size: 0.25333rem;
+  text-align: center;
+  color: #c02a48;
+  font-weight: 500;
+  margin-top: 0.03rem;
+}
+/* line 159, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003159}}
+.tpsvg {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.2rem;
+}
+/* line 164, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003164}}
+.notZhaoDao {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 169, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003169}}
+.notZhaoDao_txt {
+  font-size: 0.4rem;
+  color: #bf2949;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 175, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003175}}
+.yaoqing {
+  border: 1px solid #a3a3a3;
+  border-radius: 8px;
+  width: 50%;
+  height: 28px;
+  padding-left: 10%;
+  margin-right: 0.2rem;
+}
+/* line 183, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003183}}
+.queding {
+  background: #bf2949;
+  color: #FFF;
+  height: 30px;
+  width: 25%;
+  border-radius: 8px;
+  font-size: 14px;
+}
+/* line 191, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003191}}
+.yaoqingMa {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 200, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003200}}
+.animate_load {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 666;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 213, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003213}}
+.spinner {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+/* line 220, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003220}}
+.container1 > div,
+.container2 > div,
+.container3 > div {
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 233, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003233}}
+.spinner .spinner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 239, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003239}}
+.container2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+/* line 244, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003244}}
+.container3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+/* line 249, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003249}}
+.circle1 {
+  top: 0;
+  left: 0;
+}
+/* line 250, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003250}}
+.circle2 {
+  top: 0;
+  right: 0;
+}
+/* line 251, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003251}}
+.circle3 {
+  right: 0;
+  bottom: 0;
+}
+/* line 252, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003252}}
+.circle4 {
+  left: 0;
+  bottom: 0;
+}
+/* line 254, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003254}}
+.container2 .circle1 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+/* line 259, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003259}}
+.container3 .circle1 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+/* line 264, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003264}}
+.container1 .circle2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+/* line 269, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003269}}
+.container2 .circle2 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+/* line 274, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003274}}
+.container3 .circle2 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+/* line 279, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003279}}
+.container1 .circle3 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+/* line 284, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003284}}
+.container2 .circle3 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+/* line 289, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003289}}
+.container3 .circle3 {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+/* line 294, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003294}}
+.container1 .circle4 {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+/* line 299, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003299}}
+.container2 .circle4 {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+/* line 304, index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003304}}
+.container3 .circle4 {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+@-webkit-keyframes bouncedelay {
+  /* line 310, index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003310}}
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  /* line 311, index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003311}}
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bouncedelay {
+  /* line 315, index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003315}}
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  /* line 318, index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/投票\/src\/less\/index\.less}line{font-family:\00003318}}
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+/*# sourceMappingURL=index.css.map */
